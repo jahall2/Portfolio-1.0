@@ -1,0 +1,1112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	height: 100%
+}
+.wrapper {
+	max-width: 2560px;
+	background-color:#D5FFFF;
+}
+
+
+
+.portfolio{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1780px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.portfolio:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.portfolio:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+
+.about{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1960px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.about:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.about:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+.logo {
+	position: fixed;
+	margin-top: 100px;
+	z-index: 1;
+	left: 1050px;
+	top: -20px;
+	height: 800px;
+}
+
+.back_container {
+	position:absolute;
+	filter: drop-shadow(0px 0px 10px #162123);
+	margin-top: 800px;
+	z-index: 2;
+	width: 100%;
+	height: 3800px;
+	background-color:white;
+}
+
+.copy-container{
+	position:absolute;
+	filter: drop-shadow( 0px 0px 5px #162123);
+	margin-top: 525px;
+	margin-left: 20%;
+	z-index: 2;
+	width: 60%;
+	height: 775px;
+	background-color:white;
+}
+
+.header {
+	position: absolute;
+	z-index: 3;
+	left: 150px;
+	top: 100px;
+    font-family: arial;
+    color: #051119;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.location {
+	position: absolute;
+	z-index: 3;
+	left: 1050px;
+	top: 110px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	color: #051119;
+	font-size: 1.2em;
+	
+}
+
+.muncie {
+	position: absolute;
+	z-index: 3;
+	left: 1170px;
+	top: 112px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #051119;
+	font-size: 1.1em;
+	
+}
+.button {
+	position: absolute;
+	z-index: 3;
+	background-color: #1C2F42;
+	width: 10%;
+	height: 40px;
+	top:250px;
+	left: 150px;
+	border-radius:30px;
+}
+
+.button:hover {
+	
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+
+.button div {
+	position: absolute;
+	z-index: 3;
+	color: white;
+	font-family: arial;
+	top: 11px;
+	left: 30px;
+}
+
+.line {
+	position: absolute;
+	z-index: 3;
+	width: 73%;
+	height: 0px;
+	color: black;
+	top: 450px;
+	left: 155px;
+}
+
+.overview {
+	position: absolute;
+	z-index: 3;
+	font-weight: bold;
+	font-size: 1.2em;
+	top: 550px;
+	left: 150px;
+	width: 25%;
+	height: 100px;
+	color: #2CA2C6;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+  p {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: .95em;
+	font-weight:normal;
+	width: 30%;
+	height: 75px;
+	top: 575px;
+	left: 150px;
+	  color: #2A3150;
+}
+
+.results {
+	position: absolute;
+	z-index: 3;
+	font-weight: bold;
+	font-size: 1.2em;
+	top: 550px;
+	left: 900px;
+	width: 25%;
+	height: 100px;
+	color: #2CA2C6;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.results-copy {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: .95em;
+	font-weight:normal;
+	color: #2A3150;
+	width: 30%;
+	height: 20px;
+	top: 575px;
+	left: 900px;
+}
+
+.concepts {
+	position: absolute;
+	z-index: 3;
+	left:750px;
+	top: 1350px;
+	height: 650px;
+}
+
+
+.concepts2 {
+	position: absolute;
+	z-index: 3;
+	left: 750px;
+	top: 2050px;
+	height: 650px;
+}
+
+.mockup {
+	position: absolute;
+	z-index: 3;
+	left: 850px;
+	top: 2750px;
+	height: 560px;
+}
+
+.mockup2 {
+	position: absolute;
+	z-index: 3;
+	left: 850px;
+	top: 3360px;
+	height: 560px;
+}
+
+.mockup3 {
+	position: absolute;
+	z-index: 3;
+	left: 850px;
+	top: 3960px;
+	height: 560px;
+}
+
+
+
+
+
+
+
+/*Smaller-fullscreen*/
+@media (max-width: 2100px) {
+	.wrapper {
+	width: 100%;
+		height: 4200px;
+		position: absolute;
+		overflow: hidden;
+	
+}
+	.portfolio {
+		left: 1600px;
+	}
+	
+	.about {
+		left: 1770px;
+	}
+	.logo {
+		left: 800px;
+	}
+	
+	.location{
+		left: 900px;
+	}
+	
+	.muncie {
+		width: 200px;
+		left: 1020px;
+	}
+	
+	.line {
+		top: 350px;
+	}
+	
+	.overview {
+		top: 450px;
+	}
+	.overview-copy {
+		top: 500px;
+	}
+	
+	.results {
+		top: 450px;
+		left: 720px;
+	}
+	
+	
+	.results-copy {
+		top: 500px;
+		left: 720px;
+	}
+	
+	.concepts {
+	position: absolute;
+	z-index: 3;
+	left:620px;
+	top: 1350px;
+	height: 500px;
+}
+
+
+.concepts2 {
+	position: absolute;
+	z-index: 3;
+	left: 620px;
+	top: 1900px;
+	height: 500px;
+}
+
+.mockup {
+	position: absolute;
+	z-index: 3;
+	left: 620px;
+	top: 2450px;
+	height: 500px;
+}
+
+.mockup2 {
+	position: absolute;
+	z-index: 3;
+	left: 620px;
+	top: 3000px;
+	height: 500px;
+}
+
+.mockup3 {
+	position: absolute;
+	z-index: 3;
+	left: 620px;
+	top: 3550px;
+	height: 500px;
+}
+
+	
+}
+
+
+
+
+
+
+/*Smallerrrrr-fullscreen*/
+@media (max-width: 1800px) {
+	.wrapper {
+	width: 100%;
+		height: 4200px;
+		position: absolute;
+		overflow: hidden;
+	
+}
+	.portfolio {
+		left: 1200px;
+	}
+	
+	.about {
+		left: 1370px;
+	}
+	.logo {
+		left: 740px;
+		top: 50px;
+		height: 600px;
+	}
+	
+	.location{
+		left: 600px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	
+	.muncie {
+		width:220px;
+		left: 720px;
+	}
+	
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .9em;
+		width: 400px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 600px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 600px;
+		font-size: .9em;
+		width: 400px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	.concepts {
+	position: absolute;
+	z-index: 3;
+	left:475px;
+	top: 1350px;
+	height: 500px;
+}
+
+
+.concepts2 {
+	position: absolute;
+	z-index: 3;
+	left: 475px;
+	top: 1900px;
+	height: 500px;
+}
+
+.mockup {
+	position: absolute;
+	z-index: 3;
+	left: 475px;
+	top: 2450px;
+	height: 500px;
+}
+
+.mockup2 {
+	position: absolute;
+	z-index: 3;
+	left: 475px;
+	top: 3000px;
+	height: 500px;
+}
+
+.mockup3 {
+	position: absolute;
+	z-index: 3;
+	left: 475px;
+	top: 3550px;
+	height: 500px;
+}
+	
+	
+	
+	
+	
+}
+
+
+
+/*even Smallerrrrr-fullscreen*/
+@media (max-width: 1680px) {
+	.wrapper {
+	width: 100%;
+		height: 4200px;
+		position: absolute;
+		overflow: hidden;
+	
+}
+	.portfolio {
+		left: 1100px;
+	}
+	
+	.about {
+		left: 1280px;
+	}
+	.logo {
+		left: 670px;
+		top: 50px;
+		height: 600px;
+	}
+	
+	.location{
+		left: 650px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	
+	
+	.muncie {
+		width: 220px;
+		left: 770px;
+		top: 300px;
+	}
+	
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .75em;
+		width: 340px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 550px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 550px;
+		font-size: .75em;
+		width: 330px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	.concepts {
+	position: absolute;
+	z-index: 3;
+	left:430px;
+	top: 1350px;
+	height: 500px;
+}
+
+
+.concepts2 {
+	position: absolute;
+	z-index: 3;
+	left: 430px;
+	top: 1900px;
+	height: 500px;
+}
+
+.mockup {
+	position: absolute;
+	z-index: 3;
+	left: 430px;
+	top: 2450px;
+	height: 500px;
+}
+
+.mockup2 {
+	position: absolute;
+	z-index: 3;
+	left: 430px;
+	top: 3000px;
+	height: 500px;
+}
+
+.mockup3 {
+	position: absolute;
+	z-index: 3;
+	left: 430px;
+	top: 3550px;
+	height: 500px;
+}
+		
+}
+
+
+
+
+
+
+
+
+/*Laptop Start*/
+@media (max-width: 1400px) {
+	.wrapper {
+	width: 100%;
+		height: 4200px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 950px;
+	}
+	
+	.about {
+		left: 1120px;
+	}
+	.logo {
+		left: 500px;
+		top: 20px;
+		height: 600px;
+	}
+	
+	.location{
+		left: 650px;
+		top: 120px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 90%;
+		left: -210px;
+	}
+	
+	
+	.muncie {
+		width: 220px;
+		left: 770px;
+		top: 120px;
+	}
+	
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .8em;
+		width: 380px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 650px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 650px;
+		font-size: .8em;
+		width: 390px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	
+	.concepts {
+	position: absolute;
+	z-index: 3;
+	left:250px;
+	top: 1350px;
+	height: 500px;
+}
+
+
+.concepts2 {
+	position: absolute;
+	z-index: 3;
+	left: 250px;
+	top: 1900px;
+	height: 500px;
+}
+
+.mockup {
+	position: absolute;
+	z-index: 3;
+	left: 250px;
+	top: 2450px;
+	height: 500px;
+}
+
+.mockup2 {
+	position: absolute;
+	z-index: 3;
+	left: 250px;
+	top: 3000px;
+	height: 500px;
+}
+
+.mockup3 {
+	position: absolute;
+	z-index: 3;
+	left: 250px;
+	top: 3550px;
+	height: 500px;
+}
+		
+}
+
+
+
+
+
+
+
+
+/*Laptop Smaller*/
+@media (max-width: 1200px) {
+	.wrapper {
+	width: 100%;
+		height: 4200px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 750px;
+	}
+	
+	.about {
+		left: 915px;
+	}
+	.logo {
+		left: 430px;
+		top: 20px;
+		height: 600px;
+	}
+	
+	.location{
+		left: 650px;
+		top: 120px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 90%;
+		left: -180px;
+	}
+	
+	
+	.muncie {
+		width: 220px;
+		left: 770px;
+		top: 120px;
+	}
+	
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .75em;
+		width: 330px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 600px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 600px;
+		font-size: .75em;
+		width: 330px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	
+	.concepts {
+	position: absolute;
+	z-index: 3;
+	left:180px;
+	top: 1350px;
+	height: 500px;
+}
+
+
+.concepts2 {
+	position: absolute;
+	z-index: 3;
+	left: 180px;
+	top: 1900px;
+	height: 500px;
+}
+
+.mockup {
+	position: absolute;
+	z-index: 3;
+	left: 180px;
+	top: 2450px;
+	height: 500px;
+}
+
+.mockup2 {
+	position: absolute;
+	z-index: 3;
+	left: 180px;
+	top: 3000px;
+	height: 500px;
+}
+
+.mockup3 {
+	position: absolute;
+	z-index: 3;
+	left: 180px;
+	top: 3550px;
+	height: 500px;
+}
+		
+}
+
+
+
+
+
+
+
+/*Laptop even Smaller*/
+@media (max-width: 1000px) {
+	.wrapper {
+	width: 100%;
+		height: 4200px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 550px;
+	}
+	
+	.about {
+		left: 720px;
+	}
+	.logo {
+		left: 350px;
+		top: 50px;
+		height: 500px;
+	}
+	
+	.location{
+		left: 70px;
+		top: 290px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 90%;
+		left: -150px;
+	}
+	
+	
+	.muncie {
+		width: 220px;
+		left: 190px;
+		top: 290px;
+	}
+	
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .7em;
+		width: 300px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 470px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 470px;
+		font-size: .7em;
+		width: 300px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	
+	.concepts {
+	position: absolute;
+	z-index: 3;
+	left:65px;
+	top: 1350px;
+	height: 500px;
+}
+
+
+.concepts2 {
+	position: absolute;
+	z-index: 3;
+	left: 65px;
+	top: 1900px;
+	height: 500px;
+}
+
+.mockup {
+	position: absolute;
+	z-index: 3;
+	left: 65px;
+	top: 2450px;
+	height: 500px;
+}
+
+.mockup2 {
+	position: absolute;
+	z-index: 3;
+	left: 65px;
+	top: 3000px;
+	height: 500px;
+}
+
+.mockup3 {
+	position: absolute;
+	z-index: 3;
+	left: 65px;
+	top: 3550px;
+	height: 500px;
+}
+		
+}
+
+
+
+
+
+/*Tablet Start*/
+@media (max-width: 800px) {
+	.wrapper {
+	width: 100%;
+		height: 3500px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 450px;
+
+	}
+	
+	.about {
+		left:610px;
+	}
+	.logo {
+		left: 250px;
+		top: 100px;
+		height: 500px;
+	}
+	
+	.location{
+		left: 350px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 93%;
+		left: -135px;
+	}
+	
+	
+	.muncie {
+		width: 120px;
+		left: 470px;
+		top: 300px;
+	}
+	
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .7em;
+		width: 280px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 400px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 400px;
+		font-size: .7em;
+		width: 280px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+		.concepts {
+	position: absolute;
+	z-index: 3;
+	left:55px;
+	top: 1250px;
+	height: 400px;
+}
+
+
+.concepts2 {
+	position: absolute;
+	z-index: 3;
+	left:55px;
+	top: 1700px;
+	height: 400px;
+}
+
+.mockup {
+	position: absolute;
+	z-index: 3;
+	left:55px;
+	top: 2150px;
+	height: 400px;
+}
+
+.mockup2 {
+	position: absolute;
+	z-index: 3;
+	left:55px;
+	top: 2600px;
+	height: 400px;
+}
+
+.mockup3 {
+	position: absolute;
+	z-index: 3;
+	left:55px;
+	top: 3050px;
+	height: 400px;
+}
+		
+}

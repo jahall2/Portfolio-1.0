@@ -1,0 +1,918 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+.wrapper {
+	max-width: 2560px;
+	height: 5000px;
+	background-color:#165864;
+}
+
+
+
+.portfolio{
+   position:fixed;
+	z-index: 200;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1750px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.portfolio:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.portfolio:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+
+.about{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1940px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.about:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.about:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+
+.back_container {
+	position:absolute;
+	filter: drop-shadow(0px 0px 8px black);
+	margin-top: 800px;
+	z-index: 2;
+	width: 100%;
+	height: 4000px;
+	background-color: white;
+}
+
+.copy-container{
+	position:absolute;
+	filter: drop-shadow( 3px 3px 6px #090A07);
+	margin-top: 525px;
+	margin-left: 20%;
+	z-index: 10;
+	width: 60%;
+	height: 775px;
+	background-color: white;
+}
+
+.header {
+	position: absolute;
+	z-index: 3;
+	left: 150px;
+	top: 100px;
+    font-family: arial;
+    color: #152722;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.location {
+	position: absolute;
+	z-index: 3;
+	left: 1050px;
+	top: 110px;
+	font-family: arial;
+	font-weight: bold;
+	color: #152722;
+	font-size: 1.2em;
+	
+}
+
+.muncie {
+	position: absolute;
+	z-index: 3;
+	left: 1160px;
+	top: 110px;
+	font-family: arial;
+	color: #152722;
+	font-size: 1.1em;
+	
+}
+
+
+.line {
+	position: absolute;
+	z-index: 3;
+	width: 73%;
+	height: 0px;
+	color: black;
+	top: 450px;
+	left: 155px;
+}
+
+.overview {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 1.2em;
+	top: 550px;
+	left: 150px;
+	width: 25%;
+	height: 100px;
+	color: #2CA2C6;
+}
+
+  p {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: .9em;
+	font-weight:normal;
+	width: 30%;
+	height: 75px;
+	top: 575px;
+	left: 150px;
+	  color: #152722;
+}
+
+.results {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 1.2em;
+	top: 550px;
+	left: 900px;
+	width: 25%;
+	height: 100px;
+	color: #2CA2C6;
+}
+
+.results-copy {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: .9em;
+	font-weight:normal;
+	width: 30%;
+	height: 20px;
+	top: 575px;
+	left: 900px;
+	color: #152722;
+}
+.logo {
+	position: fixed;
+	top: 100px;
+	left: 900px;
+	height: 350px;
+}
+
+.mala-web3 {
+		position: absolute;
+		z-index: 10;
+		height: 1060px;
+		margin-left: 550px;
+		top: 1400px;
+	}
+
+.mala-web2 {
+		position: absolute;
+		z-index: 10;
+		height: 1060px;
+		margin-left: 1400px;
+		top: 1400px;
+	}
+
+.mala-web1 {
+		position: absolute;
+		z-index: 10;
+		height: 450px;
+		margin-left:900px;
+		top: 2570px;
+	}
+	
+	
+
+
+
+
+
+
+
+
+/*Smaller-fullscreen*/
+@media (max-width: 2100px) {
+	.wrapper {
+	width: 100%;
+		position: absolute;
+		overflow: hidden;
+		height: 2900px;
+	
+}
+	.portfolio {
+		left: 1600px;
+	}
+	
+	.about {
+		left: 1770px;
+	}
+	.logo {
+		left: 780px;
+		height: 300px;
+		top: 50px;
+	}
+	
+	.location{
+		left: 150px;
+		top: 300px;
+	}
+	
+	.muncie {
+		width: 200px;
+		left: 260px;
+		top: 300px;
+	}
+	.button {
+		width: 140px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+	}
+	
+	.overview {
+		top: 450px;
+	}
+	.overview-copy {
+		top: 500px;
+	}
+	
+	.results {
+		top: 450px;
+		left: 720px;
+	}
+	
+	
+	.results-copy {
+		top: 500px;
+		left: 720px;
+	}
+	
+	.mala-web3 {
+		position: absolute;
+		z-index: 10;
+		height: 860px;
+		left: -100px;
+		top: 1400px;
+	}
+
+.mala-web2 {
+		position: absolute;
+		z-index: 10;
+		height: 860px;
+		left: -280px;
+		top: 1400px;
+	}
+
+.mala-web1 {
+		position: absolute;
+		z-index: 10;
+		height: 450px;
+		left:-300px;
+		top: 2370px;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+/*Smallerrrrr-fullscreen*/
+@media (max-width: 1800px) {
+	.wrapper {
+	width: 100%;
+	
+}
+	.portfolio {
+		left: 1500px;
+	}
+	
+	.about {
+		left: 1660px;
+	}
+	.logo {
+		left: 650px;
+		top: 100px;
+		height: 300px;
+	}
+	
+	.location{
+		left: 70px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	
+	.muncie {
+		width: 180px;
+		left: 180px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .9em;
+		width: 400px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 600px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 600px;
+		font-size: .9em;
+		width: 400px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	.mala-web1 {
+		left: -400px;
+	}
+	.mala-web2 {
+		left: -500px;
+	}
+	
+	.mala-web3 {
+		left: -200px;
+	}
+	
+	
+	
+}
+
+
+
+/*Smallerrrrr-fullscreen*/
+@media (max-width: 1680px) {
+	.wrapper {
+	width: 100%;
+		overflow: hidden;
+		position: absolute;
+		height: 3400px;
+	
+}
+	.portfolio {
+		left: 1100px;
+	}
+	
+	.about {
+		left: 1280px;
+	}
+	.logo {
+		left: 540px;
+		top: 100px;
+		height: 300px;
+	}
+	
+	.location{
+		left: 70px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	
+	
+	.muncie {
+		width: 180px;
+		left: 180px;
+		top: 300px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+		font-size: .9em;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .75em;
+		width: 340px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 550px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 550px;
+		font-size: .75em;
+		width: 330px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+		
+}
+
+
+
+
+
+
+
+
+/*Laptop Start*/
+@media (max-width: 1400px) {
+	.wrapper {
+	width: 100%;
+		height: 3000px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 950px;
+	}
+	
+	.about {
+		left: 1120px;
+	}
+	.logo {
+		left: 420px;
+		top: 100px;
+		height: 300px;
+	}
+	
+	.location{
+		left: 70px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 90%;
+		left: -210px;
+	}
+	
+	
+	.muncie {
+		width: 180px;
+		left: 180px;
+		top: 300px;
+	}
+
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .8em;
+		width: 380px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 650px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 650px;
+		font-size: .8em;
+		width: 390px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	.mala-web1{
+		left: -600px;
+	}
+	
+	.mala-web2{
+		left: -650px;
+	}
+	
+	.mala-web3{
+		left: -400px;
+	}
+		
+}
+
+
+
+
+
+
+
+/*Laptop Smaller*/
+@media (max-width: 1200px) {
+	.wrapper {
+	width: 100%;
+		height: 2800px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 750px;
+	}
+	
+	.about {
+		left: 920px;
+	}
+	.logo {
+		left: 300px;
+		top: 100px;
+		height: 300px;
+	}
+	
+	.location{
+		left: 70px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 90%;
+		left: -210px;
+	}
+	
+	
+	.muncie {
+		width: 180px;
+		left: 180px;
+		top: 300px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .8em;
+		width: 380px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 550px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 550px;
+		font-size: .8em;
+		width: 390px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	.mala-web1 {
+		left: -750px;
+		top: 2200px;
+	}
+	
+	.mala-web2 {
+		left: -820px;
+		top: 1300px;
+	}
+	
+	.mala-web3 {
+		left: -500px;
+		top: 1300px;
+	}
+		
+}
+
+
+
+
+
+/*Laptop Smaller 2*/
+@media (max-width: 1000px) {
+	.wrapper {
+	width: 100%;
+		height: 2500px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 580px;
+	}
+	
+	.about {
+		left:760px;
+	}
+	.logo {
+		left: 250px;
+		top: 150px;
+		height: 250px;
+	}
+	
+	.location{
+		left: 70px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 90%;
+		left: -160px;
+	}
+	
+	
+	.muncie {
+		width: 180px;
+		left: 180px;
+		top: 300px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .7em;
+		width: 310px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 450px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 450px;
+		font-size: .7em;
+		width: 310px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	.mala-web1 {
+		left: -750px;
+		top: 2100px;
+		height: 350px;
+	}
+	
+	.mala-web2 {
+		left: -900px;
+		top: 1300px;
+		height: 700px;
+	}
+	
+	.mala-web3 {
+		left: -500px;
+		top: 1300px;
+		height: 700px;
+	}
+		
+}
+
+
+
+
+
+
+/*Tablet Start*/
+@media (max-width: 800px) {
+	.wrapper {
+	width: 100%;
+		height: 2300px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 450px;
+
+	}
+	
+	.about {
+		left:610px;
+	}
+	.logo {
+		left: 200px;
+		top: 230px;
+		height: 200px;
+	}
+	
+	.location{
+		left: 70px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 93%;
+		left: -135px;
+	}
+	
+	
+	.muncie {
+		width: 180px;
+		left: 180px;
+		top: 300px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .7em;
+		width: 280px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 400px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 400px;
+		font-size: .7em;
+		width: 280px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	.mala-web1 {
+		height: 300px;
+		left: -800px;
+		top: 1900px;
+	}
+	
+	.mala-web2 {
+		height: 550px;
+		left: -1000px;
+	}
+	
+	.mala-web3 {
+		height: 550px;
+	}
+		
+}

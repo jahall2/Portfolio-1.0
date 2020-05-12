@@ -1,0 +1,1486 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+}
+#wrapper {
+	max-width: 2560px;
+	height: 2000px;
+	background: black;
+}
+
+.portfolio{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 2045px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.portfolio:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.portfolio:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+
+.about{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 2220px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.about:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.about:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+.backdrop {
+	position: fixed;
+	z-index: 1;
+	height: 1600px;
+	top: -230px;
+	
+	-webkit-animation: animate_1 60s forwards;
+	-moz-animation: animate_1 60s forwards;
+	animation: animate_1 60s forwards;
+}
+
+
+@keyframes animate_1 {
+	from {
+		left: 0px;
+	}
+	to {
+		left: -260px;
+	}
+}
+
+.cloud_1 {
+	position: fixed;
+	z-index: 1;
+	top: 200px;
+	opacity: .6;
+	
+	-webkit-animation: animate_2 120s forwards;
+	-moz-animation: animate_2 120s forwards;
+	animation: animate_2 120s forwards;
+}
+@keyframes animate_2 {
+	from {
+		left: 500px;
+	}
+	to {
+		left: 1700px;
+	}
+}
+.cloud_3 {
+	position: fixed;
+	z-index: 1;
+	width: 1200px;
+	height: 500px;
+	bottom: 10px;
+	opacity: .6;
+	
+	-webkit-animation: animate_45 55s forwards;
+	-moz-animation: animate_45 55s forwards;
+	animation: animate_45 55s forwards;
+}
+@keyframes animate_45 {
+	from {
+		left: 700px;
+	}
+	to {
+		left: 1700px;
+	}
+}
+
+
+.me {
+	position: absolute;
+	z-index: 2;
+	width: 2500px;
+	height: 1485px;
+	top: -200px;
+}
+
+.hello {
+	position:absolute;
+	z-index: 2;
+	left: 60.7%;
+	top: 340px;
+	font-size: 2em; 
+	font-weight:600;
+	font-family: Helvetica;
+	color: white;
+}
+.i_am {
+	position: absolute;
+	z-index: 2;
+	left: 60.6%;
+	top: 375px;
+	font-size: 6em; 
+	font-family: Helvetica; 
+	color:#2CA2C6; 
+	font-weight: 600;
+}
+.description {
+	position: absolute;
+	z-index: 2;
+	left: 60.9%;
+	top: 480px;
+	font-size: 2em; 
+	font-family: Helvetica; 
+	color: white; 
+	font-weight: 100;
+}
+.mid {
+	position: absolute;
+	z-index: 2;
+	background: black;
+	width: 100%;
+	height: 1220px;
+	top: 1285px;
+}
+#project-intro {
+	position: absolute;
+	z-index: 3;
+	top: 50px;
+	width: 50%;
+	height: 10px;
+}
+.our-work {
+	position: absolute;
+	z-index: 3;
+	font-size: 1em;
+	font-weight: 600;
+	font-family: Helvetica;
+	color:#2CA2C6;
+	top: 1300px;
+	padding-left: 450px;
+	height: 10px;
+	
+}
+.projects {
+	position: absolute;
+	z-index: 3;
+	font-size: 4em;
+	font-weight: 600;
+	font-family: Helvetica;
+	color:white;
+	top: 1320px;
+	padding-left: 450px;
+	height: 10px;
+	
+}
+.my-work {
+	position: absolute;
+	z-index: 3;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: Helvetica;
+	color:#ACACAC;
+	top: 1399px;
+	padding-left: 450px;
+	width: 550px;
+	height: 10px;
+	
+}
+.aus_page {
+	position: absolute;
+	z-index: 105;
+	height: 290px;
+	top: 770px;
+	left: 1570px;
+}
+
+.aus_page:hover {
+	
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+.pac {
+	position: absolute;
+	z-index: 105;
+	height: 290px;
+	top: 350px;
+	left: 1010px;
+}
+
+.pac:hover {
+	
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	transform: scale(1.03);
+}
+.mala{
+	position: absolute;
+	z-index: 105;
+	height: 290px;
+	top: 770px;
+	left: 450px;
+}
+
+.mala:hover {
+	
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+.robinwood {
+	position:absolute;
+	z-index: 10;
+	top: 350px;
+	left: 290px;
+	height: 470px;
+}
+.robinwood:hover {
+	
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+
+.halteman {
+	position: absolute;
+	z-index: 105;
+	top: 180px;
+	top: 800px;
+	left:1000px;
+	height: 235px;
+}
+
+.halteman:hover {
+	
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	transform: scale(1.03);
+}
+.whitely {
+	position: absolute;
+	z-index: 105;
+	top: 400px;
+	left: 1600px;
+	height: 200px;
+}
+
+.whitely:hover {
+	
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Smaller-fullscreen*/
+@media (max-width: 2200px) {
+	#wrapper {
+	width: 2200px;	
+		height: 2200px;
+		position: absolute;
+	overflow: hidden;
+}
+	.portfolio {
+		left: 1630px;
+	}
+	
+	.about {
+		left: 1800px;
+	}
+	
+	.me {
+		width: 80%;
+		height: 1000px;
+	}
+	
+	
+	
+	.backdrop {
+		width: 2500px;
+		height: 1200px;
+	}
+	
+	.hello {
+		left: 1200px;
+	}
+	
+	.i_am{
+		left: 1195px;
+	}
+	
+	.description {
+		left: 1200px;
+	}
+	
+	.mid {
+		width: 2500px;
+		top: 800px;
+		height: 2000px;
+	}
+	
+.backdrop {
+	position: fixed;
+	z-index: 1;
+	top: -230px;
+	
+	-webkit-animation: animate_3 60s forwards;
+	-moz-animation: animate_3 60s forwards;
+	animation: animate_3 60s forwards;
+}
+
+
+
+
+.cloud_1 {
+	position: fixed;
+	z-index: 1;
+	top: 200px;
+	opacity: .6;
+	
+	-webkit-animation: animate_4 90s forwards;
+	-moz-animation: animate_4 90s forwards;
+	animation: animate_4 90s forwards;
+}
+
+.cloud_3 {
+	position: fixed;
+	z-index: 1;
+	width: 1200px;
+	height: 500px;
+	bottom: 10px;
+	opacity: .6;
+	top: 480px;
+	
+	-webkit-animation: animate_5 70s forwards;
+	-moz-animation: animate_5 70s forwards;
+	animation: animate_5 70s forwards;
+}
+
+	
+	.our-work{
+		left: -200px;
+		top: 1000px;
+	}
+	
+	.projects {
+		left: -202px;
+		top: 1030px;
+	}
+	
+	.my-work {
+		left: -202px;
+		top: 1110px;
+	}
+	
+	.robinwood {
+		left: 120px;
+		top: 500px;
+	}
+	
+	
+	
+	.pac {
+	left: 790px;
+		top: 500px;
+		
+	}
+	
+	.whitely {
+		left: 1380px;
+		top: 550px;
+		height: 190px;
+	}
+
+	.mala {
+		left:250px;
+		top: 900px;
+	}
+
+	.halteman {
+		left:790px;
+		top: 900px;
+		height: 220px;
+	}
+	
+	.aus_page {
+		left:1360px;
+		top: 900px;
+		height: 280px;
+	}
+}
+	
+	
+	@keyframes animate_3 {
+	from {
+		left: 0px;
+	}
+	to {
+		left: -260px;
+	}
+}
+
+@keyframes animate_4 {
+	from {
+		left: 200px;
+	}
+	to {
+		left: 1700px;
+	}
+}
+	@keyframes animate_5 {
+	from {
+		left: 800px;
+	}
+	to {
+		left: 1250px;
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Smallerr*/
+@media (max-width: 1950px) {
+	#wrapper {
+	width: 1940px;	
+		position: absolute;
+	overflow: hidden;
+}
+.portfolio {
+		left: 1350px;
+	}
+	
+	.about {
+		left: 1520px;
+	}
+	.me {
+		width: 87%;
+		height: 1000px;
+	}
+	
+	
+	
+
+	
+	.hello {
+		left: 900px;
+		position: fixed;
+		
+	}
+	
+	.i_am{
+		position: fixed;
+		left: 897px;
+	}
+	
+	.description {
+		
+		position: fixed;
+		left: 900px;
+	}
+	
+	.mid {
+		width: 106%;
+		top: 800px;
+		height: 1300px;
+		left: -100px;
+	}
+	.backdrop {
+		width: 2500px;
+		height: 1200px;
+	}
+.backdrop {
+	position: fixed;
+	z-index: 1;
+	top: -230px;
+	
+	-webkit-animation: animate_6 60s forwards;
+	-moz-animation: animate_6 60s forwards;
+	animation: animate_6 60s forwards;
+}
+
+
+
+
+.cloud_1 {
+	position: fixed;
+	z-index: 1;
+	top: 200px;
+	opacity: .6;
+	
+	-webkit-animation: animate_7 90s forwards;
+	-moz-animation: animate_7 90s forwards;
+	animation: animate_7 90s forwards;
+}
+
+.cloud_3 {
+	position: fixed;
+	z-index: 1;
+	width: 1200px;
+	height: 500px;
+	bottom: 10px;
+	opacity: .6;
+	top: 480px;
+	
+	-webkit-animation: animate_8 70s forwards;
+	-moz-animation: animate_8 70s forwards;
+	animation: animate_8 70s forwards;
+}
+
+	
+	
+	.our-work{
+		left: -300px;
+		top: 900px;
+	}
+	
+	.projects {
+		left: -302px;
+		top: 930px;
+	}
+	
+	.my-work {
+		left: -302px;
+		top: 1020px;
+	}
+	
+	.robinwood {
+		left: 120px;
+		top: 500px;
+	}
+	
+	
+	
+	.pac {
+	left: 820px;
+		top: 500px;
+		
+	}
+	
+	.whitely {
+		left: 1380px;
+		top: 550px;
+		height: 190px;
+	}
+
+	.mala {
+		left:250px;
+		top: 900px;
+	}
+
+	.halteman {
+		left:790px;
+		top: 900px;
+		height: 220px;
+	}
+	
+	.aus_page {
+		left:1360px;
+		top: 900px;
+		height: 280px;
+	}
+}
+
+@keyframes animate_8 {
+	from {
+		left: 800px;
+	}
+	to {
+		left: 1250px;
+	}
+}
+	
+	@keyframes animate_7 {
+	from {
+		left: 200px;
+	}
+	to {
+		left: 1700px;
+	}
+}
+
+@keyframes animate_6 {
+	from {
+		left: 0px;
+	}
+	to {
+		left: -260px;
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		/*More Smallerr*/
+@media (max-width: 1650px) {
+	#wrapper {
+	width: 1650px;	
+	position: absolute;
+	overflow: hidden;
+}
+	.portfolio {
+		left: 1200px;
+	}
+	
+	.about {
+		left: 1370px;
+	}
+	
+	.me {
+		width: 100%;
+		height: 1000px;
+	}
+	
+	
+	
+	.backdrop {
+		height: 500px;
+	}
+	
+	.hello {
+		left: 734px;
+		position: fixed;
+		
+	}
+	
+	.i_am{
+		position: fixed;
+		left: 730px;
+	}
+	
+	.description {
+		
+		position: fixed;
+		left: 734px;
+	}
+	
+	.mid {
+		width: 106%;
+		top: 800px;
+		height: 1300px;
+		left: -100px;
+	}
+	
+.backdrop {
+	position: fixed;
+	z-index: 1;
+	height: 1600px;
+	top: -230px;
+	
+	-webkit-animation: animate_10 60s forwards;
+	-moz-animation: animate_10 60s forwards;
+	animation: animate_10 60s forwards;
+}
+
+
+
+
+.cloud_1 {
+	position: fixed;
+	z-index: 1;
+	top: 200px;
+	opacity: .6;
+	
+	-webkit-animation: animate_11 90s forwards;
+	-moz-animation: animate_11 90s forwards;
+	animation: animate_11 90s forwards;
+}
+
+.cloud_3 {
+	position: fixed;
+	z-index: 1;
+	width: 1200px;
+	height: 500px;
+	bottom: 10px;
+	opacity: .6;
+	top: 480px;
+	
+	-webkit-animation: animate_12 70s forwards;
+	-moz-animation: animate_12 70s forwards;
+	animation: animate_12 70s forwards;
+}
+
+	
+	.our-work{
+		left: -350px;
+		top: 900px;
+	}
+	
+	.projects {
+		left: -352px;
+		top: 930px;
+	}
+	
+	.my-work {
+		left: -352px;
+		top: 1020px;
+	}
+	
+	.robinwood {
+		left: 40px;
+		top: 400px;
+		height: 400px;
+	}
+	
+	
+	
+	.pac {
+	left: 650px;
+		top: 400px;
+		height: 250px;
+		
+	}
+	
+	.whitely {
+		left: 1150px;
+		top: 450px;
+		height: 170px;
+	}
+
+	.mala {
+		left:195px;
+		top: 750px;
+		height: 240px;
+	}
+
+	.halteman {
+		left:650px;
+		top: 780px;
+		height: 190px;
+	}
+	
+	.aus_page {
+		left:1150px;
+		top: 750px;
+		height: 240px;
+	}
+
+	
+	}
+	@keyframes animate_10 {
+	from {
+		left: 0px;
+	}
+	to {
+		left: -260px;
+	}
+}
+	@keyframes animate_11 {
+	from {
+		left: 100px;
+	}
+	to {
+		left: 400px;
+	}
+}
+	@keyframes animate_12 {
+	from {
+		left: 200px;
+	}
+	to {
+		left: 500px;
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		/*Laptop Start*/
+@media (max-width: 1400px) {
+	#wrapper {
+	width: 1400px;	
+		height: 1600px;
+		position: absolute;
+		overflow: hidden;
+}
+	.portfolio {
+		left: 950px;
+	}
+	
+	.about {
+		left: 1130px;
+	}
+	
+	.me {
+		width: 100%;
+		height: 800px;
+		top: -110px;
+	}
+	
+	
+	
+	
+	.hello {
+		left: 734px;
+		position: fixed;
+		font-size: 1.7em;
+		
+	}
+	
+	.i_am{
+		position: fixed;
+		left: 730px;
+		font-size: 4.7em;
+		top: 365px;
+	}
+	
+	.description {
+		
+		position: fixed;
+		top: 445px;
+		left: 734px;
+		font-size: 1.7em;
+	}
+	
+	.mid {
+		width: 108%;
+		top: 690px;
+		height: 950px;
+		left: -100px;
+	}
+	
+.backdrop {
+	position: fixed;
+	z-index: 1;
+	height: 1200px;
+	top: -230px;
+	
+	-webkit-animation: animate_13 60s forwards;
+	-moz-animation: animate_13 60s forwards;
+	animation: animate_13 60s forwards;
+}
+
+
+
+.cloud_1 {
+	position: fixed;
+	z-index: 1;
+	top: 100px;
+	opacity: .6;
+	
+	-webkit-animation: animate_14 90s forwards;
+	-moz-animation: animate_14 90s forwards;
+	animation: animate_14 90s forwards;
+}
+
+.cloud_3 {
+	position: fixed;
+	z-index: 1;
+	width: 1200px;
+	height: 500px;
+	bottom: 10px;
+	opacity: .6;
+	top: 450px;
+	
+	-webkit-animation: animate_15 70s forwards;
+	-moz-animation: animate_15 70s forwards;
+	animation: animate_15 70s forwards;
+}
+
+	#project-intro {
+		top: -170px;
+	}
+	.our-work{
+		left: -350px;
+		top: 900px;
+	}
+	
+	.projects {
+		left: -352px;
+		top: 930px;
+	}
+	
+	.my-work {
+		left: -352px;
+		top: 1020px;
+	}
+	
+	.robinwood {
+		left: 40px;
+		top: 300px;
+		height: 350px;
+	}
+	
+	
+	
+	.pac {
+	left: 570px;
+		top: 300px;
+		height: 220px;
+		
+	}
+	
+	.whitely {
+		left: 1000px;
+		top: 350px;
+		height: 130px;
+	}
+
+	.mala {
+		left:190px;
+		top: 600px;
+		height: 200px;
+	}
+
+	.halteman {
+		left:560px;
+		top: 610px;
+		height: 170px;
+	}
+	
+	.aus_page {
+		left:1000px;
+		top: 600px;
+		height: 180px;
+	}
+
+}
+@keyframes animate_13 {
+	from {
+		left: 0px;
+	}
+	to {
+		left: -260px;
+	}
+}
+
+	@keyframes animate_14 {
+	from {
+		left: 100px;
+	}
+	to {
+		left: 400px;
+	}
+}
+	
+	@keyframes animate_15 {
+	from {
+		left: 200px;
+	}
+	to {
+		left: 500px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/*Laptop Smaller*/
+@media (max-width: 1150px) {
+	#wrapper {
+	width: 100%;	
+		height: 1600px;
+		overflow: hidden;
+		position: absolute;
+}
+	.portfolio {
+		left: 700px;
+	}
+	
+	.about {
+		left: 880px;
+	}
+	
+	.me {
+		width: 130%;
+		height: 800px;
+		top: -110px;
+	}
+	
+	
+	
+	
+	.hello {
+		left: 600px;
+		position: fixed;
+		font-size: 1.7em;
+		
+	}
+	
+	.i_am{
+		position: fixed;
+		left: 596px;
+		font-size: 3.5em;
+		top: 365px;
+	}
+	
+	.description {
+		
+		position: fixed;
+		top: 425px;
+		left: 600px;
+		font-size: 1.45em;
+	}
+	
+	.mid {
+		width: 110%;
+		top: 690px;
+		height: 950px;
+		left: -100px;
+	}
+	
+.backdrop {
+	position: fixed;
+	z-index: 1;
+	height: 1200px;
+	top: -230px;
+	
+	-webkit-animation: animate_13 60s forwards;
+	-moz-animation: animate_13 60s forwards;
+	animation: animate_13 60s forwards;
+}
+
+
+
+.cloud_1 {
+	position: fixed;
+	z-index: 1;
+	top: 100px;
+	opacity: .6;
+	
+	-webkit-animation: animate_14 90s forwards;
+	-moz-animation: animate_14 90s forwards;
+	animation: animate_14 90s forwards;
+}
+
+.cloud_3 {
+	position: fixed;
+	z-index: 1;
+	width: 1200px;
+	height: 500px;
+	bottom: 10px;
+	opacity: .6;
+	top: 450px;
+	
+	-webkit-animation: animate_15 70s forwards;
+	-moz-animation: animate_15 70s forwards;
+	animation: animate_15 70s forwards;
+}
+
+	#project-intro {
+		top: -170px;
+	}
+	.our-work{
+		left: -350px;
+		top: 900px;
+	}
+	
+	.projects {
+		left: -352px;
+		top: 930px;
+		width: 600px;
+		font-size: 4em;
+	}
+	
+	.my-work {
+		left: -352px;
+		top: 1020px;
+	}
+	
+	.robinwood {
+		left: 75px;
+		top: 250px;
+		height: 300px;
+	}
+	
+	
+	
+	.pac {
+	left: 500px;
+		top: 250px;
+		height: 190px;
+		
+	}
+	
+	.whitely {
+		left: 870px;
+		top: 295px;
+		height: 100px;
+	}
+
+	.mala {
+		left:190px;
+		top: 540px;
+		height: 160px;
+	}
+
+	.halteman {
+		left:500px;
+		top: 550px;
+		height: 140px;
+	}
+	
+	.aus_page {
+		left:850px;
+		top: 540px;
+		height: 160px;
+	}
+
+}
+@keyframes animate_13 {
+	from {
+		left: 0px;
+	}
+	to {
+		left: -260px;
+	}
+}
+
+	@keyframes animate_14 {
+	from {
+		left: 100px;
+	}
+	to {
+		left: 400px;
+	}
+}
+	
+	@keyframes animate_15 {
+	from {
+		left: 200px;
+	}
+	to {
+		left: 500px;
+	}
+}
+
+/*error message*/
+	@media (max-width: 950px) {
+	#wrapper {
+		position: absolute;
+		z-index: 1;
+		overflow: hidden;
+		width: 100%;	
+		height: 1000px;
+}
+		
+		#error {
+			position: absolute;
+			background: white;
+			z-index: 100;
+			height: 1000px;
+			width: 100%;
+			opacity: .95;
+		}
+		
+		.error {
+			position: absolute;
+			z-index: 101;
+			margin-left: 300px;
+			margin-top: 400px;
+			font-size: 2em;
+		}
+	
+}
+	
+	
+	
+	
+	
+			/*iPhone X*/
+@media (max-width: 455px) {
+	#wrapper {
+		position: absolute;
+		z-index: 1;
+		overflow: hidden;
+	width: 350px;	
+		height: 1760px;
+}
+	.portfolio{
+		left: 165px;
+		top: 10px;
+		font-size: .5em;
+		width: 47px;
+		height: 15px;
+	}
+	.portfolio:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 1.5px;
+   top:80%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.portfolio:hover:before {
+    top: -webkit-calc(80% - 3px);
+	
+    top: calc(80% - 3px);
+}
+	.about {
+		left: 220px;
+		top: 10px;
+		font-size: .5em;
+		width: 27px;
+		height: 15px;
+	}
+	
+	.about:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 1.5px;
+   top:80%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.about:hover:before {
+    top: -webkit-calc(80% - 3px);
+	
+    top: calc(80% - 3px);
+}
+	.me {
+		overflow: scroll;
+		width: 230%;
+		top: -100px;
+		left: -150px;
+		height: 540px;
+		
+	}
+	
+	
+	
+	
+	.hello {
+		left: 130px;
+		position: fixed;
+		font-size: .7em;
+		top: 40px;
+		width: 100px;
+		
+	}
+	
+	.i_am{
+		position: fixed;
+		left: 130px;
+		font-size: 1em;
+		top: 55px;
+		width: 200px;
+	}
+	
+	.description {
+		
+		position: fixed;
+		top: 75px;
+		left: 130px;
+		font-size: .42em;
+		width: 200px;
+	}
+	
+	.mid {
+		width: 455px;
+		top: 440px;
+		height: 1370px;
+		left: 0px;
+	}
+	
+.backdrop {
+	position: fixed;
+	z-index: 1;
+	height: 1500px;
+	top: -430px;
+	
+	-webkit-animation: animate_16 60s forwards;
+	-moz-animation: animate_16 60s forwards;
+	animation: animate_16 60s forwards;
+}
+
+	
+
+
+.cloud_1 {
+	position: fixed;
+	z-index: 1;
+	top: 30px;
+	opacity: .6;
+	
+	-webkit-animation: animate_17 90s forwards;
+	-moz-animation: animate_17 90s forwards;
+	animation: animate_17 90s forwards;
+}
+
+	
+	.cloud_3 {
+		display: none;
+	}
+
+	
+	#project-intro {
+		top: -440px;
+		left: -100px;
+		width: 300px;
+	}
+	.our-work{
+		left: -322px;
+		top: 900px;
+		width: 100px;
+	}
+	
+	.projects {
+		left: -323px;
+		top: 925px;
+		font-size: 2em;
+		width: 280px;
+	}
+	
+	.my-work {
+		left: -320px;
+		top: 965px;
+		font-size: .8em;
+		width: 280px;
+	}
+	
+	.robinwood {
+		left: -100px;
+		top: 180px;
+		height: 320px;
+	}
+	
+	
+	
+	.pac {
+	left: 40px;
+		top: 430px;
+		height: 160px;
+		
+	}
+	
+	.whitely {
+		left: 45px;
+		top:860px;
+		height: 87px;
+	}
+
+	.mala {
+		left:40px;
+		top: 660px;
+		height: 150px;
+	}
+
+	.halteman {
+		left:50px;
+		top: 1180px;
+		height: 110px;
+	}
+	
+	.aus_page {
+		left:40px;
+		top: 1000px;
+		height: 140px;
+		width: 255px;
+	}
+	}
+
+@keyframes animate_16 {
+	from {
+		left: 0px;
+	}
+	to {
+		left: 0px;
+	}
+}
+	@keyframes animate_17 {
+	from {
+		left: 00px;
+	}
+	to {
+		left: 0px;
+	}
+}
+

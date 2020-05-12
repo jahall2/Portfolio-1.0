@@ -1,0 +1,891 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	height: 100%
+}
+.wrapper {
+	max-width: 2560px;
+	background:#2A3150;
+	z-index: 0;
+}
+
+.background {
+	
+	position: fixed;
+	width: 110%;
+	height: 2800px;
+	top: -900px;
+	left: -100px;
+	opacity: .65;
+	
+	animation: rotation 300s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.portfolio{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1750px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.portfolio:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.portfolio:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+
+.about{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1940px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.about:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.about:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+.me {position:absolute;
+	height: 200px;
+	z-index: 5;
+	padding-left: 1580px;
+	top: 630px;
+}
+
+.back_container {
+	position:absolute;
+	filter: drop-shadow(0px 0px 10px #0A0C1A);
+	margin-top: 800px;
+	z-index: 2;
+	width: 100%;
+	height: 800px;
+	background-color: white;
+}
+
+.copy-container{
+	position:absolute;
+	filter: drop-shadow( 5px 0px 15px #0A0C1A );
+	margin-top: 525px;
+	margin-left: 20%;
+	z-index: 2;
+	width: 60%;
+	height: 775px;
+	background-color: white;
+}
+
+.header {
+	position: absolute;
+	z-index: 3;
+	left: 150px;
+	top: 100px;
+    font-family: arial;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: bold;
+	color: #2A3150;
+}
+
+.location {
+	position: absolute;
+	z-index: 3;
+	left: 155px;
+	top: 250px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	color: #2A3150;
+	font-size: 1.2em;
+	
+}
+
+.muncie {
+	position: absolute;
+	z-index: 3;
+	left: 280px;
+	top: 251px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #2A3150;
+	font-size: 1.1em;
+	
+}
+
+
+.line {
+	position: absolute;
+	z-index: 3;
+	width: 73%;
+	height: 0px;
+	color: black;
+	top: 450px;
+	left: 155px;
+}
+
+.overview {
+	position: absolute;
+	z-index: 3;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 1.2em;
+	top: 550px;
+	left: 150px;
+	color: #2CA2C6;
+	width: 25%;
+	height: 100px;
+}
+
+  p {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: .95em;
+	font-weight:normal;
+	color: #2A3150;
+	width: 30%;
+	height: 75px;
+	top: 575px;
+	left: 150px;
+}
+
+.links {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #2CA2C6;
+	top: 550px;
+	left: 900px;
+	width: 25%;
+	height: 100px;
+}
+
+.git {
+	position: absolute;
+	height: 40px;
+	left: 900px;
+	top: 600px;
+	width: 45px;
+	z-index: 200;
+}
+
+.insta {
+	position: absolute;
+	height: 30px;
+	left: 900px;
+	top: 640px;
+	z-index: 200;
+}
+
+.email {
+	position: absolute;
+	height: 30px;
+	left: 900px;
+	top: 690px;
+	z-index: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Smaller-fullscreen*/
+@media (max-width: 2100px) {
+	.wrapper {
+	width: 100%;
+	
+}
+	.portfolio {
+		left: 1300px;
+	}
+	.me {
+		right: 700px;
+	}
+	
+	.about {
+		left: 1490px;
+	}
+	.logo {
+		left: 0px;
+	}
+	
+	.location{
+		left: 150px;
+	}
+	
+	.muncie {
+		width: 120px;
+		left: 270px;
+	}
+	.button {
+		width: 140px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+	}
+	
+	.overview {
+		top: 450px;
+	}
+	.overview-copy {
+		top: 500px;
+		width: 440px;
+	}
+	
+	.links {
+		top: 450px;
+		left: 720px;
+	}
+	
+
+	.git {
+	position: absolute;
+	height: 40px;
+	left: 700px;
+	top: 500px;
+}
+
+.insta {
+	position: absolute;
+	height: 30px;
+	left: 700px;
+	top: 540px;
+}
+	
+	.email {
+	position: absolute;
+	height: 30px;
+	left: 700px;
+	top: 580px;
+	z-index: 200;
+}
+	
+	
+	
+}
+
+
+
+
+
+
+/*Smallerrrrr-fullscreen*/
+@media (max-width: 1800px) {
+	.wrapper {
+	width: 100%;
+	
+}
+	.portfolio {
+		left: 1100px;
+	}
+	
+	.about {
+		left: 1280px;
+	}
+	.logo {
+		left: 00px;
+		top: 100px;
+		height: 1100px;
+	}
+	
+	.location{
+		left: 70px;
+	}
+	.me{
+		right:500px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	
+	.muncie {
+		width: 120px;
+		left: 190px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .9em;
+		width: 400px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 600px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 600px;
+		font-size: .9em;
+		width: 400px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	.color-font {
+		left: 430px;
+		top: 1200px;
+		height: 600px;
+	}
+	
+	.components {
+		left: 430px;
+		top: 1700px;
+		height: 400px;
+	}
+	
+	.mockup1 {
+		left: 500px;
+		top: 2100px;
+	}
+	
+	.mockup2 {
+		left: 500px;
+		top: 2600px;
+	}
+	
+	.motion {
+		left: 250px;
+		top: 3100px;
+	}
+	
+	
+		.git {
+	position: absolute;
+	height: 40px;
+	left: 700px;
+	top: 500px;
+}
+
+.insta {
+	position: absolute;
+	height: 30px;
+	left: 700px;
+	top: 540px;
+}
+	
+		.email {
+	position: absolute;
+	height: 30px;
+	left: 700px;
+	top: 580px;
+	z-index: 200;
+}
+	
+}
+
+
+
+/*Smallerrrrr-fullscreen*/
+@media (max-width: 1680px) {
+	.wrapper {
+	width: 100%;
+	height: 1300px;
+		position: absolute;
+		overflow: hidden;
+	
+}
+	.portfolio {
+		left: 1100px;
+	}
+	
+	.about {
+		left: 1270px;
+	}
+	.logo {
+		left: 90px;
+		top: 200px;
+		height: 900px;
+	}
+	
+	.location{
+		left: 70px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.location{
+		left: 70px;
+	}
+	
+	.muncie {
+		width: 120px;
+		left: 190px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .9em;
+		width: 383px;
+	}
+	
+	.links {
+		left: 550px;
+		top: 400px;
+	}
+	.back_container {
+		height: 500px;
+	}
+	
+		.git {
+	position: absolute;
+	height: 40px;
+	left: 550px;
+	top: 450px;
+}
+
+.insta {
+	position: absolute;
+	height: 30px;
+	left: 550px;
+	top:490px;
+}
+.email {
+	position: absolute;
+	height: 30px;
+	left: 550px;
+	top: 530px;
+	z-index: 200;
+}
+	
+}
+
+
+
+
+/*Laptop Start*/
+@media (max-width: 1300px) {
+	.wrapper {
+	width: 100%;
+	height: 1300px;
+		position: absolute;
+		overflow: hidden;
+	
+}
+	.portfolio {
+		left: 780px;
+	}
+	
+	.about {
+		left: 970px;
+	}
+	.logo {
+		left: 90px;
+		top: 200px;
+		height: 900px;
+	}
+	
+	.copy-container {
+		width: 80%;
+		left: -125px;
+	}
+	
+	.me {
+		left: -700px;
+	}
+	
+	.location{
+		left: 70px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.location{
+		left: 70px;
+	}
+	
+	.muncie {
+		width: 120px;
+		left: 190px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .9em;
+		width: 383px;
+	}
+	
+	.links {
+		left: 650px;
+		top: 400px;
+	}
+	.back_container {
+		height: 500px;
+	}
+	
+			.git {
+	position: absolute;
+	height: 40px;
+	left: 650px;
+	top: 450px;
+}
+
+.insta {
+	position: absolute;
+	height: 30px;
+	left: 650px;
+	top:490px;
+}
+	
+.email {
+	position: absolute;
+	height: 30px;
+	left: 650px;
+	top: 530px;
+	z-index: 200;
+}	
+	
+}
+
+
+
+
+
+
+/*Laptop Smaller*/
+@media (max-width: 1100px) {
+	.wrapper {
+	width: 100%;
+	height: 1300px;
+		position: absolute;
+		overflow: hidden;
+	
+}
+	.portfolio {
+		left: 680px;
+	}
+	
+	.about {
+		left: 860px;
+	}
+	.logo {
+		left: 90px;
+		top: 200px;
+		height: 900px;
+	}
+	
+	.copy-container {
+		width: 80%;
+		left: -125px;
+	}
+	
+	.me {
+		left: -900px;
+	}
+	
+	.location{
+		left: 70px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.location{
+		left: 70px;
+	}
+	
+	.muncie {
+		width: 120px;
+		left: 190px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .75em;
+		width: 350px;
+	}
+	
+	.links {
+		left: 550px;
+		top: 400px;
+	}
+	.back_container {
+		height: 500px;
+	}
+	
+	.git {
+	position: absolute;
+	height: 40px;
+	left: 550px;
+	top: 450px;
+}
+
+.insta {
+	position: absolute;
+	height: 30px;
+	left: 550px;
+	top:490px;
+}
+	
+.email {
+	position: absolute;
+	height: 30px;
+	left: 550px;
+	top: 530px;
+	z-index: 200;
+	width: 300px;
+}	
+	
+}
+
+
+
+
+
+
+/*Laptop Smaller 2*/
+@media (max-width: 900px) {
+	.wrapper {
+	width: 100%;
+	height: 1300px;
+		position: absolute;
+		overflow: hidden;
+	
+}
+	.portfolio {
+		left: 480px;
+	}
+	
+	.about {
+		left: 660px;
+	}
+	.background {
+		height: 1800px;
+		width: 2000px;
+		left:-300px;
+		top: -300px;
+	}
+	
+	.copy-container {
+		width: 85%;
+		left: -110px;
+	}
+	
+	.me {
+		left: -1000px;
+		height: 150px;
+	}
+	
+	.location{
+		left: 70px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.location{
+		left: 70px;
+	}
+	
+	.muncie {
+		width: 120px;
+		left: 190px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .70em;
+		width: 300px;
+	}
+	
+	.links {
+		left: 450px;
+		top: 400px;
+	}
+	.back_container {
+		height: 500px;
+	}
+	
+	.git {
+	position: absolute;
+	height: 40px;
+	left: 450px;
+	top: 450px;
+}
+
+.insta {
+	position: absolute;
+	height: 30px;
+	left: 450px;
+	top:490px;
+}
+	
+	.email {
+	position: absolute;
+	height: 30px;
+	left: 450px;
+	top: 530px;
+	z-index: 200;
+	width: 300px;
+}	
+	
+	
+}
+

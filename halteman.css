@@ -1,0 +1,917 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	height: 100%
+}
+.wrapper {
+	max-width: 2560px;
+	height: 4000px;
+	background:#F39C9D;
+}
+
+.nav {
+	position: fixed;
+	z-index: 150;
+	background:#5B5F62;
+	width: 12%;
+	height: 1px;
+	top: 60px;
+	left: 2140px;
+	opacity: .9;
+}
+.portfolio{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1750px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.portfolio:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.portfolio:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+
+.about{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1940px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.about:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.about:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+.logo {
+	position: fixed;
+	margin-top: 50px;
+	z-index: 1;
+	left: 750px;
+	height: 1500px;
+	height: 450px;
+}
+
+.back_container {
+	position:absolute;
+	filter: drop-shadow(0px 0px 10px black);
+	margin-top: 800px;
+	z-index: 2;
+	width: 100%;
+	height: 3300px;
+	background-color: white;
+}
+
+.copy-container{
+	position:absolute;
+	filter: drop-shadow( 0px 0px 5px black);
+	margin-top: 525px;
+	margin-left: 20%;
+	z-index: 2;
+	width: 60%;
+	height: 775px;
+	background-color: white;
+}
+
+.header {
+	position: absolute;
+	z-index: 3;
+	left: 150px;
+	top: 100px;
+    font-family: arial;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: bold;
+	color:black;
+}
+
+.location {
+	position: absolute;
+	z-index: 3;
+	left: 1050px;
+	top: 110px;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+	font-size: 1.2em;
+	
+}
+
+.muncie {
+	position: absolute;
+	z-index: 3;
+	left: 1160px;
+	top: 110px;
+	font-family: arial;
+	color: black;
+	font-size: 1.1em;
+	
+}
+.button {
+	position: absolute;
+	z-index: 3;
+	background-color: #1C2F42;
+	width: 10%;
+	height: 40px;
+	top:250px;
+	left: 150px;
+	border-radius:30px;
+}
+
+.button:hover {
+	
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+.button div{
+	position: absolute;
+	z-index: 3;
+	color: white;
+	font-family: arial;
+	top: 11px;
+	left: 30px;
+}
+
+
+.line {
+	position: absolute;
+	z-index: 3;
+	width: 73%;
+	height: 0px;
+	color: black;
+	top: 450px;
+	left: 155px;
+}
+
+.overview {
+	position: absolute;
+	z-index: 3;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.2em;
+	top: 550px;
+	left: 150px;
+	width: 25%;
+	height: 100px;
+	color:#2CA2C6;
+}
+
+  p {
+	position: absolute;
+	z-index: 3;
+	font-family: arial;
+	font-size: .9em;
+	font-weight:normal;
+	width: 30%;
+	height: 75px;
+	top: 575px;
+	left: 150px;
+}
+
+.results {
+	position: absolute;
+	z-index: 3;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.2em;
+	top: 550px;
+	left: 900px;
+	width: 25%;
+	height: 100px;
+	color:#2CA2C6;
+}
+
+.results-copy {
+	position: absolute;
+	z-index: 3;
+	font-family: arial;
+	font-size: .9em;
+	font-weight:normal;
+	width: 30%;
+	height: 20px;
+	top: 575px;
+	left: 900px;
+}
+
+.concepts {
+	position: absolute;
+	z-index: 3;
+	left:600px;
+	top: 1300px;
+	height: 750px;
+}
+.motion {
+	position: absolute;
+	z-index: 4;
+	top: 2100px;
+	height: 500px;
+	left: 700px;
+}
+
+.shirts {
+	position: absolute;
+	z-index: 4;
+	left: 900px;
+	top: 2700px;
+	height: 755px;
+}
+.buttons {
+		position: absolute;
+	z-index: 4;
+	left: 900px;
+	top: 3500px;
+	height: 550px;
+}
+
+
+
+
+
+/*Smaller-fullscreen*/
+@media (max-width: 2100px) {
+	.wrapper {
+	width: 100%;
+	
+}
+	.portfolio {
+		left: 1600px;
+	}
+	
+	.about {
+		left: 1770px;
+	}
+	.logo {
+		left: 550px;
+	}
+	
+	.location{
+		left: 900px;
+	}
+	
+	.muncie {
+		width: 200px;
+		left: 1020px;
+	}
+	.button {
+		width: 140px;
+	}
+	.button-165 {
+		width: 150px;
+		left: -120px;
+	}
+	.line {
+		top: 350px;
+	}
+	
+	.overview {
+		top: 450px;
+	}
+	.overview-copy {
+		top: 500px;
+	}
+	
+	.results {
+		top: 450px;
+		left: 720px;
+	}
+	
+	
+	.results-copy {
+		top: 500px;
+		left: 720px;
+	}
+	
+	
+	
+.concepts {
+	position: absolute;
+	z-index: 3;
+	left:400px;
+	top: 1300px;
+	height: 750px;
+}
+.motion {
+	position: absolute;
+	z-index: 4;
+	top: 2100px;
+	height: 500px;
+	left: 500px;
+}
+
+.shirts {
+	position: absolute;
+	z-index: 4;
+	left: 650px;
+	top: 2700px;
+	height: 755px;
+}
+.buttons {
+		position: absolute;
+	z-index: 4;
+	left: 650px;
+	top: 3500px;
+	height: 550px;
+}
+	
+}
+
+
+
+
+
+
+/*Smallerrrrr-fullscreen*/
+@media (max-width: 1800px) {
+	.wrapper {
+	width: 100%;
+	
+}
+	.portfolio {
+		left: 1200px;
+	}
+	
+	.about {
+		left: 1370px;
+	}
+	.logo {
+		left: 450px;
+		top: 50px;
+		height: 400px;
+	}
+	
+	.location{
+		left: 600px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	
+	.muncie {
+		width:220px;
+		left: 710px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+		font-size: .9em;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .9em;
+		width: 400px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 600px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 600px;
+		font-size: .9em;
+		width: 400px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	.concepts {
+	position: absolute;
+	z-index: 3;
+	left:400px;
+	top: 1300px;
+	height: 550px;
+}
+.motion {
+	position: absolute;
+	z-index: 4;
+	top: 1900px;
+	height: 400px;
+	left: 500px;
+}
+
+.shirts {
+	position: absolute;
+	z-index: 4;
+	left: 500px;
+	top: 2500px;
+	height: 755px;
+}
+.buttons {
+		position: absolute;
+	z-index: 4;
+	left: 500px;
+	top: 3300px;
+	height: 550px;
+}
+	
+	
+	
+	
+	
+}
+
+
+
+/*Smallerrrrr-fullscreen*/
+@media (max-width: 1680px) {
+	.wrapper {
+	width: 100%;
+	
+}
+	.portfolio {
+		left: 1100px;
+	}
+	
+	.about {
+		left: 1280px;
+	}
+	.logo {
+		left: 400px;
+		top: 50px;
+		height: 400px;
+	}
+	
+	.location{
+		left: 650px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	
+	
+	.muncie {
+		width: 220px;
+		left: 770px;
+		top: 300px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .75em;
+		width: 340px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 550px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 550px;
+		font-size: .75em;
+		width: 330px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	.motion {
+		
+	}
+		
+}
+
+
+
+
+
+
+
+
+/*Laptop Start*/
+@media (max-width: 1400px) {
+	.wrapper {
+	width: 100%;
+		height: 3700px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 950px;
+	}
+	
+	.about {
+		left: 1120px;
+	}
+	.logo {
+		left: 250px;
+		top: 20px;
+		height: 400px;
+	}
+	
+	.location{
+		left: 650px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 90%;
+		left: -210px;
+	}
+	
+	
+	.muncie {
+		width: 220px;
+		left: 770px;
+		top: 300px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .8em;
+		width: 380px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 650px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 650px;
+		font-size: .8em;
+		width: 390px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	
+		.concepts {
+	position: absolute;
+	z-index: 3;
+	left:350px;
+	top: 1300px;
+	height: 450px;
+}
+.motion {
+	position: absolute;
+	z-index: 4;
+	top: 1900px;
+	height: 300px;
+	left: 450px;
+}
+
+.shirts {
+	position: absolute;
+	z-index: 4;
+	left: 300px;
+	top: 2300px;
+	height: 755px;
+}
+.buttons {
+		position: absolute;
+	z-index: 4;
+	left: 300px;
+	top: 3100px;
+	height: 550px;
+}
+		
+}
+
+
+
+/*Laptop Smaller*/
+@media (max-width: 1200px) {
+	.wrapper {
+	width: 100%;
+		height: 3700px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 750px;
+	}
+	
+	.about {
+		left: 920px;
+	}
+	.logo {
+		left: 100px;
+		top: 20px;
+		height: 400px;
+	}
+	
+	.location{
+		left: 650px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 90%;
+		left: -210px;
+	}
+	
+	
+	.muncie {
+		width: 220px;
+		left: 770px;
+		top: 300px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .8em;
+		width: 380px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 650px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 650px;
+		font-size: .8em;
+		width: 390px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	
+		.concepts {
+	position: absolute;
+	z-index: 3;
+	left:150px;
+	top: 1300px;
+	height: 450px;
+}
+.motion {
+	position: absolute;
+	z-index: 4;
+	top: 1900px;
+	height: 300px;
+	left: 250px;
+}
+
+.shirts {
+	position: absolute;
+	z-index: 4;
+	left: 200px;
+	top: 2300px;
+	height: 755px;
+}
+.buttons {
+		position: absolute;
+	z-index: 4;
+	left: 200px;
+	top: 3100px;
+	height: 550px;
+}
+		
+}
+
+
+
+
+/*Tablet Start*/
+@media (max-width: 950px) {
+	.wrapper {
+	width: 100%;
+		height: 3700px;
+		overflow: hidden;
+		position: absolute;
+	
+}
+	.portfolio {
+		left: 550px;
+	}
+	
+	.about {
+		left: 720px;
+	}
+	.logo {
+		left: 100px;
+		top: 20px;
+		height: 350px;
+	}
+	
+	.location{
+		left: 450px;
+		top: 300px;
+	}
+	.header {
+		left: 70px;
+		font-size: 2.5em;
+	}
+	.copy-container {
+		width: 90%;
+		left: -145px;
+	}
+	
+	
+	.muncie {
+		width: 220px;
+		left: 570px;
+		top: 300px;
+	}
+	.button {
+		width: 140px;
+		left: 70px;
+	}
+	.button-165 {
+		width: 150px;
+		left: 20px;
+	}
+	.line {
+		top: 350px;
+		left: 70px;
+		width: 88%;
+	}
+	
+	.overview {
+		top: 400px;
+		left: 70px;
+	}
+	.overview-copy {
+		top: 450px;
+		left: 70px;
+		font-size: .7em;
+		width: 300px;
+	}
+	
+	.results {
+		top: 400px;
+		left: 450px;
+	}
+	
+	
+	.results-copy {
+		top: 450px;
+		left: 450px;
+		font-size: .7em;
+		width: 300px;
+	}
+	.copy-container{
+		height: 650px;
+	}
+	
+	
+		.concepts {
+	position: absolute;
+	z-index: 3;
+	left:150px;
+	top: 1300px;
+	height: 400px;
+}
+.motion {
+	position: absolute;
+	z-index: 4;
+	top: 1900px;
+	height: 300px;
+	left: 200px;
+}
+
+.shirts {
+	position: absolute;
+	z-index: 4;
+	left: 130px;
+	top: 2200px;
+	height: 700px;
+}
+.buttons {
+		position: absolute;
+	z-index: 4;
+	left: 130px;
+	top: 2950px;
+	height: 510px;
+}
+		
+}
